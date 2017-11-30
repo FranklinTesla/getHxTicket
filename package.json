@@ -1,0 +1,19 @@
+{
+  "name": "hx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {"forever": "./node_modules/forever"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "saveHeaders": "node ./src/saveHeaders",
+    "start": "forever start ./src/index.js",
+    "stop": "forever stop ./src/index.js"
+  },
+  "author": "ft",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^0.15.3",
+    "http-proxy": "^1.16.2"
+  }
+}
