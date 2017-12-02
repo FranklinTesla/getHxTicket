@@ -6,7 +6,6 @@
   "bin": {"forever": "./node_modules/forever"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "saveHeaders": "node ./src/saveHeaders",
     "start": "forever start ./src/index.js",
     "stop": "forever stop ./src/index.js"
   },
